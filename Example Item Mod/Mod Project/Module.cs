@@ -16,7 +16,6 @@ namespace ExampleMod
         public override void Start()
         {
             ItemBuilder.Init();
-            SuperHeart.Init();
             SuperGun.Add();
             Log($"{MOD_NAME} v{VERSION} started successfully.", TEXT_COLOR);
         }

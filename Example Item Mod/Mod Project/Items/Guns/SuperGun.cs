@@ -39,10 +39,10 @@ namespace ExampleMod
             gun.DefaultModule.ammoCost = 1;
             gun.DefaultModule.shootStyle = ProjectileModule.ShootStyle.SemiAutomatic;
             gun.DefaultModule.sequenceStyle = ProjectileModule.ProjectileSequenceStyle.Random;
-            gun.reloadTime = 1.1f;
+            gun.reloadTime = 1.7f;
             gun.DefaultModule.cooldownTime = 0.1f;
-            gun.DefaultModule.numberOfShotsInClip = 6;
-            gun.SetBaseMaxAmmo(100);
+            gun.DefaultModule.numberOfShotsInClip = 8;
+            gun.SetBaseMaxAmmo(250);
             // Here we just set the quality of the gun and the "EncounterGuid", which is used by Gungeon to identify the gun.
             gun.quality = PickupObject.ItemQuality.A;
             gun.encounterTrackable.EncounterGuid = "supergun";
@@ -55,8 +55,8 @@ namespace ExampleMod
             //projectile.baseData allows you to modify the base properties of your projectile module.
             //In our case, our gun uses modified projectiles from the ak-47.
             //You can modify a good number of stats but for now, let's just modify the damage and speed.
-            projectile.baseData.damage = 5f;
-            projectile.baseData.speed = 1.7f;
+            projectile.baseData.damage = 8f;
+            projectile.baseData.speed = 14f;
             projectile.transform.parent = gun.barrelOffset;
             //This determines what sprite you want your projectile to use. Note this isn't necessary if you don't want to have a custom projectile sprite.
             //The x and y values determine the size of your custom projectile
