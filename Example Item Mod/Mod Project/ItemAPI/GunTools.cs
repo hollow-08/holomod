@@ -13,7 +13,7 @@ using MonoMod.RuntimeDetour;
 namespace ExampleMod
 {
 
-    public static class Tools
+    public static class GunTools
     {
         public static tk2dSpriteDefinition CopyDefinitionFrom(this tk2dSpriteDefinition other)
         {

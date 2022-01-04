@@ -84,6 +84,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Items\Guns\PanicAttack.cs" />
     <Compile Include="Items\Guns\SuperGun.cs" />
     <Compile Include="ItemAPI\GunTools.cs" />
     <Compile Include="ItemAPI\CompanionBuilder.cs" />
@@ -106,8 +107,18 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Resources\SuperHeart.png" />
+    <Content Include="sprites\Ammonomicon Encounter Icon Collection\panicattack_idle_001.png" />
     <Content Include="sprites\Ammonomicon Encounter Icon Collection\super_idle_001.png" />
+    <EmbeddedResource Include="sprites\ProjectileCollection\supershot.png" />
     <Content Include="sprites\ProjectileCollection\super_projectile_001.png" />
+    <Content Include="sprites\WeaponCollection\panicattack_idle_001.png" />
+    <Content Include="sprites\WeaponCollection\panicattack_fire_001.png" />
+    <Content Include="sprites\WeaponCollection\panicattack_fire_002.png" />
+    <Content Include="sprites\WeaponCollection\panicattack_fire_003.png" />
+    <Content Include="sprites\WeaponCollection\panicattack_reload_001.png" />
+    <Content Include="sprites\WeaponCollection\panicattack_reload_002.png" />
+    <Content Include="sprites\WeaponCollection\panicattack_reload_003.png" />
+    <Content Include="sprites\WeaponCollection\panicattack_reload_004.png" />
     <Content Include="sprites\WeaponCollection\super_fire_001.png" />
     <Content Include="sprites\WeaponCollection\super_fire_002.png" />
     <Content Include="sprites\WeaponCollection\super_fire_003.png" />

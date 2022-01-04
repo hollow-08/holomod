@@ -17,6 +17,7 @@ namespace ExampleMod
         {
             ItemBuilder.Init();
             SuperGun.Add();
+            PanicAttack.Add();
             Log($"{MOD_NAME} v{VERSION} started successfully.", TEXT_COLOR);
         }
 
