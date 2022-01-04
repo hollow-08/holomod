@@ -1,0 +1,7 @@
+Name: ExampleMod
+Version: 0.0.1
+Author: Author
+
+DLL: ExampleMod.dll
+
+Depends: Base 0.2

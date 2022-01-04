@@ -1,0 +1,1 @@
+gun.barrelOffset.localPosition = new Vector3(1.5f, 1.0625f, 0f);
